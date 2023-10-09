@@ -1,0 +1,90 @@
+/* Colores: 
+Amarillo #f5da42, 
+Marron #592411, 
+Rojo #c41a1a
+*/
+
+/*font-family: 'Modak', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;    /* Scroll suavizado. */
+}
+
+h1{
+    font-family: 'Modak', cursive;
+    color:white;
+    font-size: 60px;
+}
+
+/* HEADER */
+header{
+    background-color:  #f5da42;
+}
+nav ul {
+	list-style-type: none;
+    gap:50px;
+}
+nav .btn {
+    background-color:white;
+    color:#592411;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2px;
+}
+nav .btn:hover {
+    background-color: #592411;
+    color:white;
+}
+
+/* TU CHOCOLATE */
+#tuChoco{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 320px;
+}
+
+.fondoRojo{
+    background-color: #c41a1a;
+    background-image: url(../img/bg-pattern.png);
+}
+
+.fondoAmarillo{
+    background-color: #f5da42;
+}
+
+/* sabores */
+#sabores .btn {
+    background-color:white;
+    color:#592411;
+    border-radius: 15px;
+    font-size: 17px;
+    padding: 4px;
+}
+
+/* productos */
+#productos h1{
+    color: #592411;
+}
+
+#productos .btn{
+    background-color: #592411;
+    color:white;
+}
+
+#productos .btn:hover{
+    background-color: white;
+    border-color: #592411;
+    color: #592411;
+}
+
+/* FOOTER */
+footer{
+    background-color: #592411;
+}
